@@ -34,8 +34,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	bool MyRiderBool = true;
-	
-	
+
+	UPROPERTY(EditAnywhere)
+	float Speed=1;
 
 };
  
