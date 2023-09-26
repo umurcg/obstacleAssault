@@ -24,19 +24,16 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere)
-	int32 MyInt = 99;
-
+	FVector PlatformVelocity= FVector(0, 0, 100);
+	
 	UPROPERTY(EditAnywhere)
-	int MyInt2 = 0;
+	float MoveDistance = 500;
+	FVector InitialPosition= FVector(0, 0, 0);
+	
+	
 
-	UPROPERTY(EditAnywhere)
-	float MyFloat = 5.6f;
-
-	UPROPERTY(EditAnywhere)
-	bool MyRiderBool = true;
-
-	UPROPERTY(EditAnywhere)
-	float Speed=1;
+	
+	
 
 };
  
